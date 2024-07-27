@@ -1,0 +1,75 @@
+body {
+     font-family: 'Arial', sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 0;
+     padding: 20px;
+     background-color: #f0f0f0;
+ }
+ 
+ .container {
+     width: 100%;
+     max-width: 900px;
+     background: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ h1 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ 
+ .tracker-section {
+     margin-bottom: 40px;
+ }
+ 
+ .tracker-section h2 {
+     margin-bottom: 10px;
+ }
+ 
+ form {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ form label {
+     margin-bottom: 5px;
+ }
+ 
+ form input {
+     margin-bottom: 10px;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+ 
+ form button {
+     padding: 10px;
+     background: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ form button:hover {
+     background: #0056b3;
+ }
+ 
+ #workoutChart {
+     max-width: 100%;
+     height: 400px;
+ }
+ 
+ #quote {
+     font-size: 1.2em;
+     text-align: center;
+     background: #f9f9f9;
+     padding: 10px;
+     border-radius: 5px;
+ }
+ 
