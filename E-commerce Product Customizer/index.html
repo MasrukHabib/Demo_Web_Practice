@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Customizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Custom T-Shirt Designer</h1>
+        <div class="customizer">
+            <div class="product-view">
+                <div id="product" class="product">
+                    <img id="customImage" src="" alt="Custom Image" />
+                    <span id="customText"></span>
+                </div>
+            </div>
+            <div class="controls">
+                <h2>Customize Your T-Shirt</h2>
+                <label for="color">Choose T-Shirt Color:</label>
+                <input type="color" id="color" name="color" value="#ffffff">
+                
+                <label for="text">Add Text:</label>
+                <input type="text" id="text" name="text" placeholder="Enter your text here">
+                
+                <label for="textColor">Text Color:</label>
+                <input type="color" id="textColor" name="textColor" value="#000000">
+                
+                <label for="textFont">Font Style:</label>
+                <select id="textFont" name="textFont">
+                    <option value="Arial">Arial</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="Courier New">Courier New</option>
+                </select>
+                
+                <label for="image">Upload Image:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+                
+                <label for="imagePosition">Image Position:</label>
+                <input type="range" id="imagePosition" name="imagePosition" min="0" max="100" value="50">
+                
+                <button id="reset">Reset</button>
+                <button id="addToCart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
